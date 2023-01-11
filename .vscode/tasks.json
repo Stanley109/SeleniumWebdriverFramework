@@ -45,7 +45,7 @@
             "args": [ "test" ], 
             "options": 
                 { 
-                    "cwd": "${workspaceFolder}/SpecflowStepDefinitionFiles", 
+                    "cwd": "${workspaceFolder}/Specflow Step Definition Files", 
                     "env": 
                     { 
                         "VSTEST_HOST_DEBUG": "1" 
