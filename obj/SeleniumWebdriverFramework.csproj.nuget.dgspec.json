@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "SpecFlow.NUnit": {
               "target": "Package",
               "version": "[3.8.14, )"
@@ -53,6 +57,14 @@
             "SpecFlow.Plus.LivingDocPlugin": {
               "target": "Package",
               "version": "[3.8.35, )"
+            },
+            "WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.16.0, )"
             }
           },
           "imports": [

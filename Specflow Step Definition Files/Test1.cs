@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
 
 namespace SeleniumWebdriver
@@ -28,6 +29,7 @@ namespace SeleniumWebdriver
         public void Thentheresultshouldbe3(int sum)
         {
             Assert.AreEqual(sum,this.sum);
+            Assert.True(false);
         }
     }
 }
