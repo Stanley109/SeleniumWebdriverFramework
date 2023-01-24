@@ -1,0 +1,5 @@
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\obj\Debug\netcoreapp3.1\SeleniumWebdriverFramework.csproj.AssemblyReference.cache
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\obj\Debug\netcoreapp3.1\SeleniumWebdriverFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\obj\Debug\netcoreapp3.1\SeleniumWebdriverFramework.AssemblyInfoInputs.cache
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\obj\Debug\netcoreapp3.1\SeleniumWebdriverFramework.AssemblyInfo.cs
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\obj\Debug\netcoreapp3.1\SeleniumWebdriverFramework.csproj.CoreCompileInputs.cache

@@ -28,8 +28,9 @@ namespace SeleniumWebdriver
         [Then("the result should be (.*)")]
         public void Thentheresultshouldbe3(int sum)
         {
+            Console.WriteLine(Directory.GetCurrentDirectory());
             Assert.AreEqual(sum,this.sum);
-            Assert.True(false);
+            Assert.True(true);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {}
+    "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {
+    "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
+        "projectUniqueName": "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
         "projectName": "SeleniumWebdriverFramework",
-        "projectPath": "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
+        "projectPath": "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
         "packagesPath": "C:\\Users\\JASON\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\obj\\",
+        "outputPath": "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JASON\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "ExtentReports.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.4.0, )"

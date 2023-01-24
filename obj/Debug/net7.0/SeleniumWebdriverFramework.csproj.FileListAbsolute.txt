@@ -116,3 +116,15 @@ C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\W
 C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\AngleSharp.dll
 C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\ICSharpCode.SharpZipLib.dll
 C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\WebDriverManager.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\DnsClient.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\ExtentReports.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\JASON\Documents\Git Repos\SeleniumWebdriverFramework\bin\Debug\net7.0\RazorEngine.NetCore.dll
