@@ -14,19 +14,15 @@ namespace SeleniumWebdriver
     public class CommonHooks
     {
 
-        public static string basePath = Directory.GetCurrentDirectory().Substring(0,Directory.GetCurrentDirectory().Length-new string("\\bin\\Debug\\net7.0\\").Length+1);
-
         [BeforeFeature]
         public static void SetupBrowser(FeatureContext context)
         {
-             
-             new DriverManager(basePath).SetUpDriver(new ChromeConfig(),VersionResolveStrategy.MatchingBrowser);
+            Base.InitializeBrowser();
+            Base.GoToURL(FreshWorksPageObjects.freshWorksURL);
             
-            Base.driver = new ChromeDriver();
-            Base.driver.Url = "Https://wikipedia.org";
             
-            ExtentReportsHelper.createNewReport();
-            ExtentReportsHelper.logReport(context.FeatureInfo.Title);
+            ExtentReportsHelper.CreateNewReport();
+            ExtentReportsHelper.LogReport(context.FeatureInfo.Title);
 
         }
 
@@ -34,7 +30,8 @@ namespace SeleniumWebdriver
         public static void TeardownBrowser()
         {
             //add comment test only
-            Base.driver.Quit();
+            Base.webDriver.Quit();
+            ExtentReportsHelper.EndReport();
         }
     }
 }
