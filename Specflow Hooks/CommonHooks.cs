@@ -13,25 +13,32 @@ namespace SeleniumWebdriver
     [Binding]
     public class CommonHooks
     {
-
         [BeforeFeature]
         public static void SetupBrowser(FeatureContext context)
         {
             Base.InitializeBrowser();
-            Base.GoToURL(FreshWorksPageObjects.freshWorksURL);
-            
-            
+            Base.GoToURL(Freshworks_Homepage.FreshWorksURL);
             ExtentReportsHelper.CreateNewReport();
-            ExtentReportsHelper.LogReport(context.FeatureInfo.Title);
-
+            ExtentReportsHelper.CreateFeatureReport(context);
         }
 
         [AfterFeature]
         public static void TeardownBrowser()
         {
-            //add comment test only
-            Base.webDriver.Quit();
+            Base.WebDriver.Quit();
             ExtentReportsHelper.EndReport();
+        }
+
+        [BeforeScenario]
+        public static void BeforeScenario(ScenarioContext context)
+        {
+            ExtentReportsHelper.CreateScenarioReport(context);
+        }
+
+        [AfterStep]
+        public static void AfterStep(ScenarioContext context)
+        {
+            ExtentReportsHelper.CreateStepReport(context);
         }
     }
 }

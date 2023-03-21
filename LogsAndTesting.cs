@@ -7,4 +7,5 @@ class LogsAndTesting {
     {
         Console.WriteLine(Directory.GetCurrentDirectory());
     }
+
 }

@@ -9,18 +9,22 @@ namespace SeleniumWebdriver
 {	
 	class Base
   	{
-		public static string basePath = Directory.GetCurrentDirectory().Substring(0,Directory.GetCurrentDirectory().Length-new string("\\bin\\Debug\\net7.0\\").Length+1);
-		public static IWebDriver webDriver=null!;
+		public static string BasePath = Directory.GetCurrentDirectory().Substring(0,Directory.GetCurrentDirectory().Length-new string("\\bin\\Debug\\net7.0\\").Length+1);
+		public static IWebDriver WebDriver=null!;
 
 		public static void InitializeBrowser()
 		{
-		    new DriverManager(Base.basePath).SetUpDriver(new ChromeConfig(),VersionResolveStrategy.MatchingBrowser);          
-            webDriver = new ChromeDriver();
+		    new DriverManager(Base.BasePath).SetUpDriver(new ChromeConfig(),VersionResolveStrategy.MatchingBrowser);          
+            WebDriver = new ChromeDriver();
 		}
 
 		public static void GoToURL(string url)
 		{
-			webDriver.Url = url;
+			WebDriver.Url = url;
+		}
+		public static string GetCurrentURL()
+		{
+			return WebDriver.Url;
 		}
 	}
 	

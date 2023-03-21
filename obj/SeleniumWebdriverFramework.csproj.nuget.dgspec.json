@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {}
+    "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {}
   },
   "projects": {
-    "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {
+    "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
+        "projectUniqueName": "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
         "projectName": "SeleniumWebdriverFramework",
-        "projectPath": "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
+        "projectPath": "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\SeleniumWebdriverFramework.csproj",
         "packagesPath": "C:\\Users\\JASON\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\obj\\",
+        "outputPath": "C:\\Users\\JASON\\Documents\\Git Repos\\SeleniumWebdriverFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JASON\\AppData\\Roaming\\NuGet\\NuGet.Config"
