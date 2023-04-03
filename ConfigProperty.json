@@ -1,5 +1,6 @@
 {
     "browser": "chrome",
     "headless": "no",
-    "website": "wikipedia.org"
+    "maximized": "yes",
+    "website": "https://www.freshworks.com/"
 }

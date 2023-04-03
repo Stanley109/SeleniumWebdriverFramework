@@ -5,7 +5,7 @@ namespace SeleniumWebdriver
 {
     public class AboutPage
     {
-        public const string AboutPageURL = "https://www.freshworks.com/about";
+        public const string AboutPageURL = "https://www.freshworks.com/company/about/";
         IWebDriver WebDriver;
         public AboutPage(IWebDriver WebDriver)
         {

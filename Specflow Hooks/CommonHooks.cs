@@ -16,7 +16,7 @@ namespace SeleniumWebdriver
         [BeforeFeature]
         public static void SetupBrowser(FeatureContext context)
         {
-            Base.InitializeBrowser();
+            Base.SetupBrowser();
             Base.GoToURL(Freshworks_Homepage.FreshWorksURL);
             ExtentReportsHelper.CreateNewReport();
             ExtentReportsHelper.CreateFeatureReport(context);
