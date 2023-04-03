@@ -33,11 +33,11 @@ namespace SeleniumWebdriver{
                 _step = _scenario;
                 if(specflowContext.TestError == null)
                 {
-                    _step.Log(Status.Pass,specflowContext.StepContext.StepInfo.Text);
+                    _step.Log(Status.Pass,$"{specflowContext.StepContext.StepInfo.StepDefinitionType.ToString()} {specflowContext.StepContext.StepInfo.Text}");
                 }
                 else
                 {
-                    _step.Log(Status.Fail,specflowContext.StepContext.StepInfo.Text);
+                    _step.Log(Status.Fail,$"{specflowContext.StepContext.StepInfo.StepDefinitionType.ToString()} {specflowContext.StepContext.StepInfo.Text}");
                     _step.Log(Status.Info,"specflowContext.TestError.ToString()");
                 }
             }
